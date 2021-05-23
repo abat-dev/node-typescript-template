@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@models/*": ["src/models/*"],
+      "@routes/*": ["src/routes/*"],
+      "@httpRequestError": ["src/errors/httpRequestError"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "**/*.spec.ts"]
+}
