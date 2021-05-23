@@ -1,5 +1,5 @@
 # node-typescript-template
-Basic Typescript template node.js
+Basic Typescript template node-express
 
 > Inspired by [Microsoft's TypeScript-Node-Starter](https://github.com/microsoft/TypeScript-Node-Starter)
 
